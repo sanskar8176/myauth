@@ -1,0 +1,47 @@
+.register {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url("./assets/pexels-gdtography-911758.jpg") no-repeat center ;
+    background-size: cover;
+    color: white;
+  }
+  .register__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+    background-color: #1a1616ec;
+    padding: 8vw;
+    border-radius: 2px;
+    width: 60vw;
+    max-width: 350px;
+  }
+  .register__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+  }
+  .register__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: #e50914d8;
+    border-radius: 5px;  }
+  .register__google {
+    background-color: #4285f4;
+  }
+  .register div {
+    margin-top: 7px;
+  }
+  .link:hover{
+    color: #4286f4cd;
+  }

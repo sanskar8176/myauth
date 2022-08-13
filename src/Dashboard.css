@@ -1,0 +1,32 @@
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url("./assets/pexels-gdtography-911758.jpg") no-repeat center ;
+    background-size: cover;
+    color: white;
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1a1616ec;
+    padding: 8vw;
+    border-radius: 2px;
+    width: 60vw;
+    max-width: 350px;
+  }
+  .dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #e50914d8;
+    border-radius: 5px;  }
+  .dashboard div {
+    margin-top: 7px;
+  }
